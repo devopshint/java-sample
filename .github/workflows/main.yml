@@ -47,3 +47,7 @@ jobs:
 
     - name: Update kube config
       run: aws eks update-kubeconfig --name sample
+
+    - name: Deploy java helm chart to EKS
+      run: |
+        helm install java ./java-chart
