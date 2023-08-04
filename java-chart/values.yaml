@@ -41,7 +41,7 @@ service:
   port: 80
   targetPort: 8080
   protocol: TCP
-  name: java
+  name: java-chart
 
 ingress:
   enabled: false
